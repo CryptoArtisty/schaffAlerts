@@ -1,5 +1,19 @@
-node_modules
+# Environment variables
 .env
-.DS_Store
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
 vercel.env
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
