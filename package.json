@@ -1,0 +1,14 @@
+{
+  "name": "schaff-alerts-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Schaff Cycle alerts",
+  "main": "api/webhook.js",
+  "scripts": {
+    "vercel-build": "echo Hello"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "@vercel/postgres": "^0.5.0",
+    "@vercel/kv": "^1.0.1"
+  }
+}
