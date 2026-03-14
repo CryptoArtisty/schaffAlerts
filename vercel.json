@@ -13,11 +13,5 @@
       "path": "/api/monitor",
       "schedule": "*/5 * * * *"
     }
-  ],
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    }
   ]
 }
